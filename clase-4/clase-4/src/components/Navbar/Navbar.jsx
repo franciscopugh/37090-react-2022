@@ -1,5 +1,4 @@
 import './navbar.css'
-import FormBusqueda from '../FormBusqueda/FormBusqueda';
 import Dropdown from './Dropdown/Dropdown';
 const Navbar = () => {
     return (
@@ -15,13 +14,17 @@ const Navbar = () => {
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="#">Home</a>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#"><button>Cart</button></a>
-        </li>
+        
         <Dropdown/>
       </ul>
-      <FormBusqueda busqueda={"Buscar Productos"}/>
+      
     </div>
+    
+      <ul className='navbar-nav me-auto'>
+        <li className="nav-item">
+          <a className="nav-link" href="#"><button className='btn btn-dark'>Cart</button></a>
+        </li>
+      </ul>
   </div>
 </nav>
         
