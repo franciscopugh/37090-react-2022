@@ -1,6 +1,6 @@
 import React from 'react';
 
-const DetalleProducto = ({producto}) => {
+const ItemDetail = ({producto}) => {
     return (
         <div className='row g-0'>
             <div className="col-md-4">
@@ -20,4 +20,4 @@ const DetalleProducto = ({producto}) => {
     );
 }
 
-export default DetalleProducto;
+export default ItemDetail;
