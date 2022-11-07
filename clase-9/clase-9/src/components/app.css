@@ -1,0 +1,28 @@
+.App {
+    background-color: aqua;
+}
+
+.cardProducto {
+    width: 18rem;
+    margin: 4px;
+}
+
+.cardProductos {
+    margin: 4px;
+    align-items:center;
+    justify-content: center;
+}
+
+.itemDetail {
+    max-width: 540px;
+    margin-top: 20px;
+}
+
+.cartWidget {
+    position: relative;
+    left: 33%;
+}
+
+.botItem {
+    margin: 10px;
+}
