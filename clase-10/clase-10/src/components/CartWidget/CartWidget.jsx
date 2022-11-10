@@ -5,7 +5,7 @@ const CartWidget = () => {
             <ul className='navbar-nav me-auto cartWidget'>
                 <li className="nav-item">
                     <Link className="nav-link" to="/cart">
-                        <button className="btn btn-secondary"><i class="fas fa-shopping-cart fa-lg"></i></button>
+                        <button className="btn btn-secondary"><i className="fas fa-shopping-cart fa-lg"></i></button>
                     </Link>
                 </li>
             </ul>
