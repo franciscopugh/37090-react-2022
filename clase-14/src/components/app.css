@@ -1,0 +1,48 @@
+.App {
+    background-color: aqua;
+}
+
+.cardProducto {
+    width: 18rem;
+    margin: 4px;
+}
+
+.cardProductos {
+    margin: 4px;
+    align-items:center;
+    justify-content: center;
+}
+
+.itemDetail {
+    max-width: 540px;
+    margin-top: 20px;
+}
+
+.cartWidget {
+    position: relative;
+    left: 33%;
+    color:white;
+}
+
+.botItem {
+    margin: 10px;
+}
+
+.cantCarrito {
+    position: relative;
+    left: 13%;
+}
+
+.cartContainer {
+ margin-top:3%;
+ margin-left: 26.5%;
+}
+
+.darkMode {
+    background-color: black;
+    color:antiquewhite;
+}
+
+.buttonCarts {
+    margin:5px;
+}
